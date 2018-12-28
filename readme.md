@@ -1,1 +1,1 @@
-https://aeseas.github.io/starting-web-development/.
+ https://aeseas.github.io/starting-web-development/

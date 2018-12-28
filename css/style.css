@@ -1,0 +1,146 @@
+@import "UTF-8";
+@import "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css";
+@import "http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700";
+
+/* -------------------- BODY ----- */
+body {
+    max-width: 600px;
+    font: 300 100%/1 Montserrat, Helvetica, sans-serif;
+    margin: auto;
+    background-color: #C5C4C4;
+}
+
+h1 { 
+    font-size: 2em;
+    font-weight: 700;
+    color: #FF4949;
+    padding-top: 20px;
+}
+
+h2 { 
+    font-size: 1.3em; 
+    padding: 20px 0;
+    color: #b4b4b4;
+}
+
+p { 
+    color: #b4b4b4; 
+    text-align: justify;
+    line-height: 1.6em;
+}
+
+h3 { 
+    font-weight: 400; 
+    color: #9d9d9d;
+}
+
+.bold { 
+    font-weight: 700; 
+    color: #9d9d9d;
+}
+
+/* -------------------- HEADER ----- */
+header { 
+    text-align: center;
+    padding: 40px 40px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+header img {
+    border-radius: 50%;
+    border: 7px solid #eaeaea;
+    height: 130px;
+}
+
+header p { padding-bottom: 35px;}
+
+.btn {
+    background: #FF4949;
+    border-radius: 5px;
+    padding: 15px 10px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+/* -------------------- BODY ----- */
+aside {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px 0 50px;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li a { 
+    color: #C5C4C4;
+    text-decoration: none; 
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5em;
+
+}
+
+ul li p {
+    font-size: 1em;
+    color: #C5C4C4;
+    padding-top: 10px;
+}
+
+footer p { font-size: 15px; }
+
+aside a:hover { color: #FF4949; }
+
+article {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 40px 40px;
+}
+
+.his { background-color:#C5C4C4;}
+
+article img {
+    padding: 30px 0 20px 0;
+    width: 30%;
+}
+
+article h2 { color: #898989; }
+
+h3 { 
+    color: ##898989;
+    font-size: 1.5em;
+    padding-bottom: 30px;
+}
+
+article p { padding-bottom: 30px; }
+
+
+/* -------------------- MEDIA QUERIES ----- */
+@media screen and (min-width: 768px) {
+    section {
+        display: flex;
+        align-items: center;
+    }
+
+    section img { width: 25%; }
+
+    .text { margin-left: 30px;}
+}
